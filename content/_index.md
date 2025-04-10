@@ -7,6 +7,5 @@ featured_image: "/images/background2.jpg"
 
 <header class="cover bg-bottom" style="background2-image: url('{{ $featured_image }}');">
 
-![VELOciraptors Logo](/images/velociraptors-logo.jpg)
 
-Welcome to the VELOciraptors Heidelberg!
+**Welcome! Explore our latest blog posts or browse through the site! We look forward to welcoming you in person soon.🦖**

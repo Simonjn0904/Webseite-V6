@@ -7,8 +7,6 @@ keywords: ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Rad
 weight: 2
 ---
 
-# Blog
-
 _Latest on top – scroll down to see older events_
 
 ---

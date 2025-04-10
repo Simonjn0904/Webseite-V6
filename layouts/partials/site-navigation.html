@@ -1,13 +1,9 @@
 <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l center items-center justify-between">
     <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-white white-90 dib no-underline">
-      {{ with .Site.Params.site_logo }}
-        <img src="{{ urls.RelURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
-      {{ else }}
-        {{ .Site.Title }}
-      {{ end }}
+      <img src="/images/velociraptors-logo4.png" alt="Velociraptors Logo" class="logo w75 mw4-ns" />
     </a>
-    <div class="flex-l items-center">
+    <div class="flex-l items-center ml4">
       {{ partials.Include "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
         <ul class="{{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
@@ -24,3 +20,13 @@
     </div>
   </div>
 </nav>
+
+<!-- CSS für mobiles Layout -->
+<style>
+  @media (max-width: 767px) {
+    .logo {
+      width: 50px; /* Logo kleiner auf mobilen Geräten */
+      height: auto;
+    }
+  }
+</style>
