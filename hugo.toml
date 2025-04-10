@@ -9,6 +9,8 @@ defaultContentLanguage = "de"
   pagerSize = 10
 
 [params]
+  description = "Velociraptors rocks!"
+  logo = "/images/velociraptors-logo4.png"
   keywords = ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Radfahren", "RSV", "RTF", "bike", "cycling", "Routen"]
   favicon = "/favicon.ico"
 
@@ -18,7 +20,6 @@ defaultContentLanguage = "de"
       unsafe = true
 
 [menu]
-
   [[menu.main]]
     identifier = "join"
     name = "Join"
