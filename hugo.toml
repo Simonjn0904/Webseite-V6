@@ -11,11 +11,25 @@ defaultContentLanguage = "de"
 [params]
   description = "Velociraptors rocks!"
   logo = "/images/velociraptors-logo4.png"
-  keywords = ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Radfahren", "RSV", "RTF", "bike", "cycling", "Routen"]
+  keywords = [
+    "Rennrad", 
+    "Heidelberg", 
+    "Rennradgruppe", 
+    "Radsport", 
+    "Heidelberg Radfahren", 
+    "RSV", 
+    "RTF", 
+    "Bike", 
+    "Cycling", 
+    "Routen", 
+    "Jedermannrennen", 
+    "Radverein", 
+    "Gruppenfahrten", 
+    "Touren"
+  ]
   favicon = "/favicon.ico"
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
