@@ -1,6 +1,7 @@
 [build]
+command = "hugo -s exampleSite"
 publish = "./exampleSite/public/"
-command = "npm run deploy"
+
 [build.environment]
 HUGO_VERSION = "0.128.0"
 HUGO_ENV = "production"
