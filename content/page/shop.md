@@ -8,7 +8,7 @@ keywords: ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Rad
 weight: 7
 ---
 
-# Velociraptors Merch
+**Velociraptors Merch**
 
 ---
 **Stickers**

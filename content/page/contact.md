@@ -8,8 +8,8 @@ keywords: ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Rad
 weight: 12
 ---
 
-# Contact details
-hohohh
+**Contact details**
+
 
 ---
 

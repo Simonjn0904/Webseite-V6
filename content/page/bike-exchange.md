@@ -7,10 +7,6 @@ keywords: ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Rad
 weight: 5
 ---
 
-# Bike Exchange
-
----
-
 You’re super keen to join a social ride but don’t have a suitable bike right now? 🚴‍♀ You want to try out riding a road bike a few times before committing to buying one? 💸 Your bike just got stolen and your cycling date next week is suddenly at risk? 😬
 Then check out our Bike Exchange! Browse the list of available bikes in your size, contact the person offering one, and arrange when to pick it up and bring it back. 🌟
 

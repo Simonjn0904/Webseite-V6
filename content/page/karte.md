@@ -8,7 +8,7 @@ keywords: ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Rad
 weight: 7
 ---
 
-# Stickers Worldwide Map
+**Stickers Worldwide Map**
 
 Have you placed a Velociraptors sticker somewhere in the world? Help us build the global sticker map! Just enter the location in the form below. We'll add your spot to the interactive map. 
 

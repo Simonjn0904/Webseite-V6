@@ -8,7 +8,7 @@ keywords: ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Rad
 weight: 8
 ---
 
-# Nice routes around Heidelberg
+**Nice routes around Heidelberg**
 
 <style>
 .embed-grid {
