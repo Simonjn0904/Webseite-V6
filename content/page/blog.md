@@ -11,7 +11,7 @@ weight: 2
 # Blog
 
 _Latest on top – scroll down to see older events_
-horgqoewrghqoerh
+
 ---
 
 ## 🗓️ 11.03.2025: Cycling Camp – VELOciraptors on tour
