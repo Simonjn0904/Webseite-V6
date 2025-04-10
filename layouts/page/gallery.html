@@ -1,0 +1,35 @@
+{{ define "main" }}
+<main class="wrapper" style="max-width: 1200px; margin: 0 auto; padding: 2rem;">
+  <h1 style="text-align: center; margin-bottom: 2rem;">{{ .Title }}</h1>
+
+  <div style="
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  ">
+    {{ $galleryPath := "images/Gallery" }}
+    {{ $files := readDir (printf "static/%s" $galleryPath) }}
+    {{ range $files }}
+      <div style="
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        background: #fff;
+        aspect-ratio: 1 / 1;
+      ">
+        <img 
+          src="/{{ $galleryPath }}/{{ .Name }}" 
+          alt="{{ .Name }}" 
+          loading="lazy" 
+          style="
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover;
+            display: block;
+          ">
+      </div>
+    {{ end }}
+  </div>
+</main>
+{{ end }}
+

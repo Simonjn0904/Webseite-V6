@@ -1,0 +1,38 @@
+baseURL = "https://www.velociraptors-heidelberg.com/"
+languageCode = "de-de"
+title = "VELOciraptors Heidelberg"
+theme = "ananke"
+enableRobotsTXT = true
+defaultContentLanguage = "de"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  keywords = ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Radfahren", "RSV", "RTF", "bike", "cycling", "Routen"]
+  favicon = "/favicon.ico"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "join"
+    name = "Join"
+    url = "#"
+    weight = 10
+
+  [[menu.main]]
+    parent = "join"
+    name = "Weekly Rides"
+    url = "/page/weekly-rides/"
+    weight = 11
+
+  [[menu.main]]
+    parent = "join"
+    name = "WhatsApp Community"
+    url = "/page/whatsapp/"
+    weight = 12

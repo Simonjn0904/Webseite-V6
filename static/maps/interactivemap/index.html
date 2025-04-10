@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Velociraptors – Karte</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+  <style>
+    body { margin: 0; padding: 0; }
+    #map { height: 100vh; }
+  </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script>
+  // --- URL-Parameter auslesen ---
+  const params = new URLSearchParams(window.location.search);
+  const lat = parseFloat(params.get("lat")) || 49.0;
+  const lng = parseFloat(params.get("lng")) || 9.5;
+  const zoom = parseInt(params.get("zoom")) || 6;
+
+  // Karte initialisieren mit Werten aus URL oder Standard
+  var map = L.map('map').setView([lat, lng], zoom);
+
+  // Tile-Layer
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '© OpenStreetMap-Mitwirkende'
+  }).addTo(map);
+
+  // Sticker-Marker
+  var dinoIcon = L.icon({
+    iconUrl: 'velociraptors-logo01-new.png',
+    iconSize: [60, 60],
+    iconAnchor: [30, 60],
+    popupAnchor: [0, -60]
+  });
+
+  // Treffpunkt-Marker
+  var meetup = L.icon({
+    iconUrl: 'meeting-point.png',
+    iconSize: [60, 80],
+    iconAnchor: [30, 80],  // angepasst: Spitze unten
+    popupAnchor: [0, -80]
+  });
+
+  // Treffpunkt
+  L.marker([49.41325, 8.6919444], { icon: meetup })
+    .addTo(map)
+    .bindTooltip("<b style='color:red;'>Meeting point for the weekly rides</b>", { permanent: true, direction: "right", offset: [10, 0] });
+
+  // Marker 1 – Weißer Stein (z. B. "Lena")
+  L.marker([49.4530556, 8.7230556], { icon: dinoIcon })
+    .addTo(map)
+    .bindTooltip("Sticker, Simon, 08.02.25", { permanent: true, direction: "right", offset: [10, 0] });
+
+  // Marker 2 – Ludwigshöhe, Straßlach-Dingharting (z. B. "Tom")
+  L.marker([47.9675, 11.5147], { icon: dinoIcon })
+    .addTo(map)
+    .bindTooltip("Sticker, Simon, 17.03.25", { permanent: true, direction: "right", offset: [10, 0] });
+
+  // Marker 3 – Berggasthof Königstuhl (z. B. "Simon")
+  L.marker([49.40246, 8.72780], { icon: dinoIcon })
+    .addTo(map)
+    .bindTooltip("Sticker, Simon, 21.01.25", { permanent: true, direction: "right", offset: [10, 0] });
+
+</script>
+
+</body>
+</html>
