@@ -161,6 +161,35 @@
   document.querySelectorAll('.custom-tooltip')[3].innerHTML =
     'Sticker, Teddy, 31.03.25, <a href="/images/teddy_netherlands03.jpg" target="_blank">Picture</a>';
 
+
+  // Marker 10 - Teddy (Eifelregion)
+  L.marker([50.554778, 6.240550], { icon: dinoIcon })
+    .addTo(map)
+    .bindTooltip(
+      L.DomUtil.create('div', 'custom-tooltip'),
+      {
+        permanent: true,
+        direction: 'right',
+        offset: [10, 0],
+        interactive: true
+      }
+    );
+
+  // Inhalt setzen
+  document.querySelectorAll('.custom-tooltip')[5].innerHTML =
+    'Sticker, Teddy, 31.03.25, <a href="/images/teddy_04.jpg" target="_blank">Picture</a>';
+
+
+
+
+
+
+
+
+
+
+
+
 </script>
 
 </body>
