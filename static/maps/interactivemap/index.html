@@ -162,29 +162,84 @@
     'Sticker, Teddy, 31.03.25, <a href="/images/teddy_netherlands03.jpg" target="_blank">Picture</a>';
 
 
-  // Marker 10 - Teddy (Eifelregion)
-  L.marker([50.554778, 6.240550], { icon: dinoIcon })
-    .addTo(map)
-    .bindTooltip(
-      L.DomUtil.create('div', 'custom-tooltip'),
-      {
-        permanent: true,
-        direction: 'right',
-        offset: [10, 0],
-        interactive: true
-      }
-    );
-
-  // Inhalt setzen
-  document.querySelectorAll('.custom-tooltip')[5].innerHTML =
-    'Sticker, Teddy, 31.03.25, <a href="/images/teddy_04.jpg" target="_blank">Picture</a>';
+// Marker 10 - Teddy (Eifelregion) mit direktem Tooltip-Inhalt
+L.marker([50.554778, 6.240550], { icon: dinoIcon })
+  .addTo(map)
+  .bindTooltip(
+    '<div class="custom-tooltip">Sticker, Teddy, 31.03.25, <a href="/images/teddy_04.jpg" target="_blank">Picture</a></div>',
+    {
+      permanent: true,
+      direction: 'right',
+      offset: [10, 0],
+      interactive: true
+    }
+  );
 
 
+// Marker 11 - Teddy (Eifelregion, südlicher) mit direktem Tooltip-Inhalt
+L.marker([50.237114, 6.180358], { icon: dinoIcon })
+  .addTo(map)
+  .bindTooltip(
+    '<div class="custom-tooltip">Sticker, Teddy, 30.03.25, <a href="/images/teddy_05.jpg" target="_blank">Picture</a></div>',
+    {
+      permanent: true,
+      direction: 'right',
+      offset: [10, 0],
+      interactive: true
+    }
+  );
 
+// Marker 12 - Teddy (Nähe vorheriger Punkt) mit direktem Tooltip-Inhalt
+L.marker([50.237828, 6.183617], { icon: dinoIcon })
+  .addTo(map)
+  .bindTooltip(
+    '<div class="custom-tooltip">Sticker, Teddy, 30.03.25, <a href="/images/teddy_06.jpg" target="_blank">Picture</a></div>',
+    {
+      permanent: true,
+      direction: 'right',
+      offset: [10, 0],
+      interactive: true
+    }
+  );
 
+// Marker 13 - Teddy (südliche Eifel) mit direktem Tooltip-Inhalt
+L.marker([50.018711, 6.287847], { icon: dinoIcon })
+  .addTo(map)
+  .bindTooltip(
+    '<div class="custom-tooltip">Sticker, Teddy, 30.03.25, <a href="/images/teddy_07.jpg" target="_blank">Picture</a></div>',
+    {
+      permanent: true,
+      direction: 'right',
+      offset: [10, 0],
+      interactive: true
+    }
+  );
 
+// Marker 14 - Teddy (Pfälzerwald / Kaiserslautern-Region) mit direktem Tooltip-Inhalt
+L.marker([49.535703, 7.324622], { icon: dinoIcon })
+  .addTo(map)
+  .bindTooltip(
+    '<div class="custom-tooltip">Sticker, Teddy, 29.03.25, <a href="/images/teddy_08.jpg" target="_blank">Picture</a></div>',
+    {
+      permanent: true,
+      direction: 'right',
+      offset: [10, 0],
+      interactive: true
+    }
+  );
 
-
+// Marker 15 - Teddy (östlich Kaiserslautern) mit direktem Tooltip-Inhalt
+L.marker([49.483239, 7.616231], { icon: dinoIcon })
+  .addTo(map)
+  .bindTooltip(
+    '<div class="custom-tooltip">Sticker, Teddy, 29.03.25, <a href="/images/teddy_09.jpg" target="_blank">Picture</a></div>',
+    {
+      permanent: true,
+      direction: 'right',
+      offset: [10, 0],
+      interactive: true
+    }
+  );
 
 
 
