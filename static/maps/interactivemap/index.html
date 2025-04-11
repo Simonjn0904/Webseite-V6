@@ -54,20 +54,47 @@
     .addTo(map)
     .bindTooltip("<b style='color:red;'>Meeting point for the weekly rides</b>", { permanent: true, direction: "right", offset: [10, 0] });
 
-  // Marker 1 – Weißer Stein (z. B. "Lena")
+  // Marker  – Weißer Stein (z. B. "Lena")
   L.marker([49.4530556, 8.7230556], { icon: dinoIcon })
     .addTo(map)
     .bindTooltip("Sticker, Simon, 08.02.25", { permanent: true, direction: "right", offset: [10, 0] });
 
-  // Marker 2 – Ludwigshöhe, Straßlach-Dingharting (z. B. "Tom")
+  // Marker  – Ludwigshöhe, Straßlach-Dingharting (z. B. "Tom")
   L.marker([47.9675, 11.5147], { icon: dinoIcon })
     .addTo(map)
     .bindTooltip("Sticker, Simon, 17.03.25", { permanent: true, direction: "right", offset: [10, 0] });
 
-  // Marker 3 – Berggasthof Königstuhl (z. B. "Simon")
+  // Marker  – Berggasthof Königstuhl (z. B. "Simon")
   L.marker([49.40246, 8.72780], { icon: dinoIcon })
     .addTo(map)
     .bindTooltip("Sticker, Simon, 21.01.25", { permanent: true, direction: "right", offset: [10, 0] });
+
+  // Marker 2 – Teddy
+  L.marker([49.404000, 8.727300], { icon: dinoIcon })
+    .addTo(map)
+    .bindTooltip("Sticker, Teddy, 01.12.25", { permanent: true, direction: "right", offset: [10, 0] });
+
+  // Marker 3 – Teddy
+  L.marker([49.024100, 8.353200], { icon: dinoIcon })
+    .addTo(map)
+    .bindTooltip("Sticker, Teddy, 07.12.24", { permanent: true, direction: "right", offset: [10, 0] });
+
+  // Marker 4 – Teddy
+  L.marker([49.403400, 8.704400], { icon: dinoIcon })
+    .addTo(map)
+    .bindTooltip("Sticker, Teddy, 01.12.24", { permanent: true, direction: "right", offset: [10, 0] });
+
+  // Marker 5– Teddy
+  L.marker([-16.289300, -67.827200], { icon: dinoIcon })
+    .addTo(map)
+    .bindTooltip("Sticker, Teddy, 26.01.25", { permanent: true, direction: "right", offset: [10, 0] });
+
+  // Marker 6 – Teddy mit Bild
+  L.marker([52.230472, 0.111608], { icon: dinoIcon })
+    .addTo(map)
+    .bindTooltip("Sticker, Teddy, 02.04.25", { permanent: true, direction: "right", offset: [10, 0] })
+    .bindPopup('<a href="/images/teddy_cambridge.jpg" target="_blank">Picture</a>');
+
 
 </script>
 
