@@ -26,7 +26,7 @@ Our goal is to build an inclusive group, striving to provide a safer space from 
   </a>
 </p>
 
-**Introduction video:**
+**See our introduction video:**
 
 {{< youtube u11EQXmMvj0 >}}
 

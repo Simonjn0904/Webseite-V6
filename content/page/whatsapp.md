@@ -3,12 +3,9 @@ title: "WhatsApp-Community"
 date: 2025-04-02
 draft: false
 menu: "main"
-description: Die VELOciraptors Heidelberg sind eine leidenschaftliche Rennradgruppe aus Heidelberg. Schließe dich unseren Ausfahrten an!
 keywords: ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Radfahren", "RSV", "RTF", "bike", "cycling", "Routen"]
 weight: 3
 ---
-
-**Join our WhatsApp Community**
 
 Looking for like-minded people to ride with, share ideas or simply have a good chat? In our WhatsApp community, you'll find exactly that and so much more. All important updates and upcoming events are posted in our Announcement Channel. Whether you're new or have been with us for a while – there's something for everyone.
 

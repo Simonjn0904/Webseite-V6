@@ -13,9 +13,19 @@ weight: 9
 We participate at "Jedermann/-Frau"-races. 
 
 See our next races:
+- Eschborn–Frankfurt, 01.052025
+- Rad Race 120, 29.05. - 01.06.2025
+- Brezel Race Stuttgart, 14.09.2025
+
 
 # Licensed Racing
 
 We participate at licensed races around Heidelberg, most of them in Baden and Rhineland-Palatinate.
 
 See our next races:
+- 68. Kirrlacher Kriterium 2025, 27.04.2025
+- Radkriterium "Rund um die Kelter", 11.05.2025
+- Duttweiler Kerwerennen, 23.06.2025
+- Großer Preis der Sparkasse Südpfalz, 01.05.2025
+
+Contact persons for licensed racing: Kilian, Moritz, Simon

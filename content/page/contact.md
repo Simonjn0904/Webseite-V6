@@ -8,15 +8,11 @@ keywords: ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Rad
 weight: 12
 ---
 
-**Contact details**
-
-
----
 
 **General email:** [velociraptorshd@gmail.com](mailto:velociraptorshd@gmail.com)
 
 
-**Social media**
+**Social media:**
 
 <p>
   <a href="https://www.instagram.com/velociraptorsheidelberg/" target="_blank">

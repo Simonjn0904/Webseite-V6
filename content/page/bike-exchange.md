@@ -3,7 +3,6 @@ title: "Bike Exchange"
 date: 2025-04-02
 draft: false
 menu: "main"
-keywords: ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Radfahren", "RSV", "RTF", "bike", "cycling", "Routen"]
 weight: 5
 ---
 
