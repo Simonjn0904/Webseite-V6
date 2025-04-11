@@ -89,7 +89,6 @@
     .addTo(map)
     .bindTooltip("Sticker, Teddy, 26.01.25", { permanent: true, direction: "right", offset: [10, 0] });
 
-
   // Marker 6 - Teddy
   L.marker([52.230472, 0.111608], { icon: dinoIcon })
     .addTo(map)
@@ -108,6 +107,59 @@
     'Sticker, Teddy, 02.04.25, <a href="/images/teddy_cambridge.jpg" target="_blank">Picture</a>';
 
     
+  // Marker 7- Teddy in den Niederlanden
+  L.marker([51.628353, 4.767817], { icon: dinoIcon })
+    .addTo(map)
+    .bindTooltip(
+      L.DomUtil.create('div', 'custom-tooltip'),
+      {
+        permanent: true,
+        direction: 'right',
+        offset: [10, 0],
+        interactive: true
+      }
+    );
+
+  // Inhalt nachträglich setzen
+  document.querySelectorAll('.custom-tooltip')[1].innerHTML =
+    'Sticker, Teddy, 01.04.25, <a href="/images/teddy_netherlands01.jpg" target="_blank">Picture</a>';
+
+
+
+  // Marker 8 - Teddy in den Niederlanden (Standort 2)
+  L.marker([50.846325, 6.019047], { icon: dinoIcon })
+    .addTo(map)
+    .bindTooltip(
+      L.DomUtil.create('div', 'custom-tooltip'),
+      {
+        permanent: true,
+        direction: 'right',
+        offset: [10, 0],
+        interactive: true
+      }
+    );
+
+  // Inhalt nachträglich setzen
+  document.querySelectorAll('.custom-tooltip')[2].innerHTML =
+    'Sticker, Teddy, 31.03.25, <a href="/images/teddy_netherlands02.jpg" target="_blank">Picture</a>';
+
+
+  // Marker 9 - Teddy in den Niederlanden (Standort 3)
+  L.marker([50.626981, 6.233006], { icon: dinoIcon })
+    .addTo(map)
+    .bindTooltip(
+      L.DomUtil.create('div', 'custom-tooltip'),
+      {
+        permanent: true,
+        direction: 'right',
+        offset: [10, 0],
+        interactive: true
+      }
+    );
+
+  // Inhalt nachträglich setzen
+  document.querySelectorAll('.custom-tooltip')[3].innerHTML =
+    'Sticker, Teddy, 31.03.25, <a href="/images/teddy_netherlands03.jpg" target="_blank">Picture</a>';
 
 </script>
 
