@@ -8,12 +8,12 @@ keywords: ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Rad
 weight: 6
 ---
 
-# Velociraptors Merch
+# Velociraptors Merchandise
 
 ---
 **Stickers**
 
-Use the form below to buy stickers in packs of 5 for 3€; we'll mostly distribute them at the Social Rides (but can always find another way to get them to you).
+Use the form below to order stickers in packs of 5 for 3€; we'll mostly distribute them at the Social Rides (but can always find another way to get them to you).
 
 Mit diesem Formular kann man die schönen VELOciraptors-Aufkleber bestellen. Die Aufkleber sind konturgeschnitten, holografisch und 6x7,7cm, wie im Bild gezeigt. Sie kosten 3€ für 5 Stück, und werden hauptsächlich bei den Social Rides verteilt (nachdem du überwiesen hast). Falls du sie anders erhalten möchtest, können wir das auch organisieren.
 
