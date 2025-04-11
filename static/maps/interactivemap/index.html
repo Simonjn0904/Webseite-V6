@@ -89,12 +89,25 @@
     .addTo(map)
     .bindTooltip("Sticker, Teddy, 26.01.25", { permanent: true, direction: "right", offset: [10, 0] });
 
-  // Marker 6 – Teddy mit Bild
+
+  // Marker 6 - Teddy
   L.marker([52.230472, 0.111608], { icon: dinoIcon })
     .addTo(map)
-    .bindTooltip("Sticker, Teddy, 02.04.25", { permanent: true, direction: "right", offset: [10, 0] })
-    .bindPopup('<a href="/images/teddy_cambridge.jpg" target="_blank">Picture</a>');
+    .bindTooltip(
+      L.DomUtil.create('div', 'custom-tooltip'),
+      {
+        permanent: true,
+        direction: 'right',
+        offset: [10, 0],
+        interactive: true  // 👈 WICHTIG: Damit der Tooltip auf Mausaktionen reagiert
+      }
+    );
 
+  // Inhalt nachträglich setzen (wegen DOM-Struktur von Leaflet)
+  document.querySelector('.custom-tooltip').innerHTML =
+    'Sticker, Teddy, 02.04.25, <a href="/images/teddy_cambridge.jpg" target="_blank">Picture</a>';
+
+    
 
 </script>
 

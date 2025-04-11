@@ -14,4 +14,4 @@ Have you placed a Velociraptors sticker somewhere in the world? Help us build th
 
 👉 [Submit your sticker location here](https://docs.google.com/forms/d/e/1FAIpQLSfq6rMQq1QMZsitHwHfhzByx_h1SiaLY2b1gdkwk3Lh9iS4yw/viewform?usp=sharing)
 
-<iframe src="/maps/interactivemap/index.html?lat=51.1657&lng=10.4515&zoom=6" width="100%" height="600" style="border:none;"></iframe>
+<iframe src="/maps/interactivemap/index.html?lat=20&lng=0&zoom=2" width="100%" height="600" style="border:none;"></iframe>
