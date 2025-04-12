@@ -273,7 +273,38 @@ L.marker([49.429000, 8.715200], { icon: dinoIcon })
     offset: [10, 0] 
   });
 
+// Marker 19 – Teddy
+L.marker([49.447761, 8.690336], { icon: dinoIcon })
+  .addTo(map)
+  .bindTooltip(
+    '<div class="custom-tooltip">Teddy, 22.02.2025, <a href="/images/Teddy_11.jpg" target="_blank">Picture</a></div>',
+    {
+      permanent: true,
+      direction: 'right',
+      offset: [10, 0],
+      interactive: true
+    }
+  );
 
+
+// Marker 20 – Teddy
+L.marker([49.458700, 8.678900], { icon: dinoIcon })
+  .addTo(map)
+  .bindTooltip("Sticker, Teddy, 08.12.25", {
+    permanent: true,
+    direction: "right",
+    offset: [10, 0]
+  });
+
+
+// Marker 21 – Teddy
+L.marker([49.453122, 8.723181], { icon: dinoIcon })
+  .addTo(map)
+  .bindTooltip("Sticker, Teddy, 08.11.25", {
+    permanent: true,
+    direction: "right",
+    offset: [10, 0]
+  });
 
 </script>
 
