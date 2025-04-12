@@ -242,6 +242,28 @@ L.marker([49.483239, 7.616231], { icon: dinoIcon })
   );
 
 
+// Marker 16 – Teddy (16.03.2025) nahe Heidelberg
+L.marker([49.391961, 8.907056], { icon: dinoIcon })
+  .addTo(map)
+  .bindTooltip(
+    '<div class="custom-tooltip">Teddy, 16.03.2025, <a href="/images/Teddy_10.jpg" target="_blank">Picture</a></div>',
+    {
+      permanent: true,
+      direction: 'right',
+      offset: [10, 0],
+      interactive: true
+    }
+  );
+
+// Marker 17– Teddy
+L.marker([48.110200, 7.654900], { icon: dinoIcon })
+  .addTo(map)
+  .bindTooltip("Sticker, Teddy, 08.03.25", { 
+    permanent: true, 
+    direction: "right", 
+    offset: [10, 0] 
+  });
+
 
 
 
