@@ -70,10 +70,6 @@ Let’s make great pizza, with even better people 🍕💛
 
 <img src="/images/blog250213.jpg" alt="Pizza Party" style="width:100%; max-width:500px; display:block; margin: 1.5em auto;" />
 
----
-
-<!--more-->
-
 --- 
 
 ## 01.02.2025: VELOciraptors on ice
