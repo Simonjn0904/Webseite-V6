@@ -14,7 +14,7 @@ featured_image: "/images/background2.jpg"
   <a href="https://www.strava.com/clubs/1194781" target="_blank" style="margin-left: 12px;">
     <img src="/images/icons/strava.png" alt="Strava" width="40" style="vertical-align: middle;"/>
   </a>
-    <a href="https://chat.whatsapp.com/EzMhtXipCytEIUyzVBjZGx" target="_blank" style="margin-left: 12px;">
+    <a href="https://chat.whatsapp.com/CcJK63CQQ4t40IJj1h1R6x" target="_blank" style="margin-left: 12px;">
     <img src="/images/icons/whatsapp.png" alt="Whatsapp" width="40" style="vertical-align: middle;"/>
   </a>
 </p>

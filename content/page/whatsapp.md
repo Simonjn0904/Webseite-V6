@@ -9,7 +9,7 @@ weight: 3
 
 Looking for like-minded people to ride with, share ideas or simply have a good chat? In our WhatsApp community, you'll find exactly that and so much more. All important updates and upcoming events are posted in our Announcement Channel. Whether you're new or have been with us for a while – there's something for everyone.
 
-👉 [Join here](https://chat.whatsapp.com/EzMhtXipCytEIUyzVBjZGx)
+👉 [Join here](https://chat.whatsapp.com/CcJK63CQQ4t40IJj1h1R6x)
 (Click the link to get started!)
 
 ---
