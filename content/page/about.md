@@ -30,6 +30,9 @@ Our goal is to build an inclusive group, striving to provide a safer space from 
 
 {{< youtube u11EQXmMvj0 >}}
 
+
+blasgowG
+
 ![background image](/images/background.jpg)
 
 
