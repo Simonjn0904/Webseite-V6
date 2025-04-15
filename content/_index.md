@@ -18,3 +18,5 @@ featured_image: "/images/background2.jpg"
     <img src="/images/icons/whatsapp.png" alt="Whatsapp" width="40" style="vertical-align: middle; transition: transform 0.2s;" />
   </a>
 </div>
+
+<img src="/images/velociraptors-logo3.png" alt="velociraptors logo" style="width: 300px;" />
