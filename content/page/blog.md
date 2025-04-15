@@ -7,8 +7,6 @@ menu: "main"
 weight: 2
 ---
 
-# Blog
-
 _Latest on top – scroll down to see older events_
 
 ---

@@ -1,51 +1,24 @@
 {{ define "main" }}
   {{/* Inhalt von _index.md */}}
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links {{ $.Param "text_color" | default "mid-gray" }}">
     {{ .Content }}
   </article>
 
-  {{ $blog := site.GetPage "blog.md" }}
+  {{ $blog := site.GetPage "page/blog.md" }}
   {{ with $blog }}
     <section class="pa3 pa4-ns w-100 w-70-ns center">
       <h2 class="f2 tc">{{ .Title }}</h2>
+
+      {{ $lines := split .RawContent "\n" }}
+      {{ $preview := delimit (first 40 $lines) "\n" }}
+
       <div class="lh-copy">
-        {{ .Content }}
+        {{ $preview | markdownify }}
+      </div>
+
+      <div class="tc mt4">
+        <a href="{{ .RelPermalink }}" class="f5 link dim br-pill ba bw1 ph3 pv2 mb2 dib dark-blue">Mehr lesen</a>
       </div>
     </section>
   {{ end }}
-  
-  {{/* Entfernt: Automatische Anzeige der letzten Posts (auskommentiert) */}}
-  {{/*
-  {{ $mainSections := site.Params.mainSections | compare.Default (collections.Slice "post") }}
-  {{ $show_recent_posts := site.Params.ananke.show_recent_posts }}
-  {{ $section := collections.Where $.Site.RegularPages "Section" "in" $mainSections }}
-  {{ $section_count := len $section }}
-
-  {{ if and ($show_recent_posts) (compare.Ge $section_count 1) }}
-    <div class="pa3 pa4-ns w-100 w-70-ns center">
-      {{ $n_posts := $.Param "recent_posts_number" | compare.Default 3 }}
-
-      <section class="w-100 mw8">
-        {{ range (collections.First $n_posts $section) }}
-          <div class="w-100 mb4 relative">
-            {{ .Render "summary-with-image" }}
-          </div>
-        {{ end }}
-      </section>
-
-      {{ if compare.Ge $section_count (math.Add $n_posts 1) }}
-        <section class="w-100">
-          <h1 class="f3">{{ lang.Translate "more" }}</h1>
-          {{ range (collections.First 4 (collections.After $n_posts $section))  }}
-            <h2 class="f5 fw4 mb4 dib {{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "ml3" "mr3" }}">
-              <a href="{{ .RelPermalink }}" class="link black dim">
-                {{ .Title }}
-              </a>
-            </h2>
-          {{ end }}
-        </section>
-      {{ end }}
-    </div>
-  {{ end }}
-  */}}
 {{ end }}
