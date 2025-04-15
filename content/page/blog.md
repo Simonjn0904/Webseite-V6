@@ -16,9 +16,10 @@ _Latest on top – scroll down to see older events_
 📍 **Verbania, Lago Maggiore, Italien**  
 📅 **Sa. 13.09. bis So. 21.09.**  
 🚴 **Entspannte und soziale Vibes – fahre so viel, wie du möchtest!**  
-📝 [Zur Anmeldung](https://forms.gle/qdzdTUUA6XztGvUP9)  
+📝 **[All information](https://docs.google.com/document/d/18lktBcHTm40SWuy5f11yta63CMB3WJq-cQxDIZO6jUU/edit?usp=sharing)**   
+📝 **[Sign up form](https://forms.gle/qdzdTUUA6XztGvUP9)** 
 📌 **Anmeldung bis Ende März**  
-🛏️ **First come, first served** – nur **20 Plätze garantiert**
+🛏️ **First come, first served** – **nur 20 Plätze garantiert**
 
 Es ist endlich soweit – wir fahren gemeinsam an das wunderschöne Ufer des Lago Maggiore!  
 Wir übernachten in einer Herberge mit 20 Betten in zwei Zimmern.  
