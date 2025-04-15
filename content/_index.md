@@ -5,7 +5,7 @@ keywords: ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Rad
 featured_image: "/images/background2.jpg" 
 ---
 
-**Welcome! Explore our latest blog posts or browse through the site! We look forward to welcoming you in person soon.🦖**
+**Welcome! Explore our latest blog posts or browse through the site! We look forward to welcoming you in person soon.🦖 ghoweghowegh**
 
 <p>
   <a href="https://www.instagram.com/velociraptorsheidelberg/" target="_blank">
