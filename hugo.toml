@@ -5,6 +5,16 @@ theme = "ananke"
 enableRobotsTXT = true
 defaultContentLanguage = "de"
 
+# Sitemap aktivieren
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+# Hugo soll XML-Sitemap als Ausgabe erzeugen
+[outputs]
+  home = ["HTML", "RSS", "SITEMAP"]
+
 [pagination]
   pagerSize = 10
 
