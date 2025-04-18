@@ -3,9 +3,12 @@ title: "Blog"
 date: 2025-04-02
 draft: false
 layout: "list"
-menu: "main"
-weight: 2
+menu:
+  main:
+    name: "Blog"
+    weight: 2
 ---
+
 
 _Latest on top – scroll down to see older events_
 
