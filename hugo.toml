@@ -1,9 +1,9 @@
 baseURL = "https://www.velociraptors-heidelberg.com/"
-languageCode = "de-de"
+languageCode = "en"                             # war: "de-de" → Sprache des Inhalts ist Englisch
 title = "VELOciraptors Heidelberg"
 theme = "ananke"
 enableRobotsTXT = true
-defaultContentLanguage = "de"
+defaultContentLanguage = "en"                   # war: "de" → passt zur Sprache & Hugo-Handling
 
 # Sitemap aktivieren
 [sitemap]
@@ -18,47 +18,30 @@ home = ["HTML", "RSS", "SITEMAP", "ROBOTS"]
   pagerSize = 10
 
 [params]
-  description = "Velociraptors rocks!"
+  description = "Rennradgruppe Heidelberg – Ausfahrten, Gravel, RTF & Racing mit den VELOciraptors. Weekly rides & cycling community."
   logo = "/images/velociraptors-logo4.png"
   keywords = [
-    "Rennrad", 
-    "Heidelberg", 
-    "Rennradgruppe", 
-    "Radsport", 
-    "Rhein",
-    "Neckar",
-    "Mannheim",
-    "Uni",
-    "Sport",
-    "Rennrad",
-    "Lizenz",
-    "Rad",
-    "Rennen",
-    "Gravel",
-    "Heidelberg Radfahren", 
-    "RSV", 
-    "RTF", 
-    "Bike", 
-    "Cycling", 
-    "Strava", 
-    "Simon",
-    "Janus",
-    "Tri",
-    "Mountain",
-    "Training",
-    "Zeiten",
-    "Ausfahrt",
-    "Team",
-    "Verein",
-    "Radsport",
-    "Termine",
-    "athlon",
-    "Man",
-    "Routen", 
-    "Jedermannrennen", 
-    "Radverein", 
-    "Gruppenfahrten", 
-    "Touren"
+    "Rennrad Heidelberg", 
+    "Gravel Touren", 
+    "Radgruppe Uni HD",
+    "Heidelberg Radsport",
+    "Gruppe Rennrad",
+    "VELOciraptors",
+    "Bike Heidelberg",
+    "Jedermannrennen",
+    "RTF",
+    "Gravel Rhein",
+    "Radsportverein",
+    "Training Rad",
+    "Ausfahrt Heidelberg",
+    "Rennrad Mannheim",
+    "Heidelberg Cycling",
+    "Radtreff Neckar",
+    "Cycling Club Heidelberg",
+    "Weekly Rides",
+    "Gravel Rides Germany",
+    "Strava Gruppe",
+    "Heidelberg Bike Community"
   ]
   favicon = "/favicon.ico"
 
