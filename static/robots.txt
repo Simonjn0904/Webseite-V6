@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /
+Allow: /
+Sitemap: https://www.velociraptors-heidelberg.com/sitemap.xml
