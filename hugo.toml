@@ -17,6 +17,12 @@ home = ["HTML", "RSS", "SITEMAP", "ROBOTS"]
 [pagination]
   pagerSize = 10
 
+[[redirects]]
+  from = "https://www.velociraptors-heidelberg.com/*"
+  to = "https://velociraptors-heidelberg.com/:splat"
+  status = 301
+  force = true
+
 [params]
   description = "Rennradgruppe Heidelberg – Ausfahrten, Gravel, RTF & Racing mit den VELOciraptors. Weekly rides & cycling community."
   logo = "/images/velociraptors-logo4.png"
