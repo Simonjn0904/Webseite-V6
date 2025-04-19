@@ -11,6 +11,13 @@ defaultContentLanguage = "en"                   # war: "de" → passt zur Sprach
   priority = 0.5
   filename = "sitemap.xml"
 
+[build]
+  publish = "public"
+  command = "hugo"
+
+[build.environment]
+  HUGO_ENV = "production"
+
 [outputs]
 home = ["HTML", "RSS", "SITEMAP", "ROBOTS"]
 
