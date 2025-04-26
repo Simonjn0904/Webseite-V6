@@ -185,6 +185,9 @@ Autumn is here! 🍂🎃🍁
 
 The VELOciraptors have some great events coming up to get you in the fall spirit and give you something to look forward to as warmer cycling clothes come out and the sun makes less of an appearance 🌞
 
+
+badghSGHsodghSODGHsogi
+
 Across October we are hosting the "Dino Peak Pursuit", meeting every sunday to tackle local hills together 🚵
 
 On the 22nd of October, we will host an "off the bike" social event to welcome old & new Dino's back after the Summer holidays! 👋
