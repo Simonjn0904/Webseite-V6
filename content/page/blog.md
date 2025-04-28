@@ -28,6 +28,8 @@ See you there 
 
 <img src="/images/hdman.png" alt="Cycling Camp Lago Maggiore" style="width:100%; max-width:500px; display:block; margin: 1.5em auto;" />
 
+--- 
+
 ## 🗓️ 11.03.2025: Cycling Camp – VELOciraptors on tour
 
 📍 **Verbania, Lago Maggiore, Italien**  
