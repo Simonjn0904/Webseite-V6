@@ -1,8 +1,11 @@
 ---
-title: "Velociraptors Worldwide"
+title: "VELOciraptors Worldwide"
 date: 2025-04-02
 draft: false
-menu: "main"
+menu:
+  main:
+    name: "Velociraptors Worldwide"
+    weight: 6
 keywords: ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Radfahren", "RSV", "RTF", "bike", "cycling", "Routen"]
 weight: 7
 ---
