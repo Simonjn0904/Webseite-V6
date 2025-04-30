@@ -8,7 +8,7 @@ menu:
     weight: 6
 keywords: ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Radfahren", "RSV", "RTF", "bike", "cycling", "Routen"]
 ---
-Fill in [**this form**]() by **Sunday 18th May** to take part at our group order for the new Jerseys, Bottles, or Socks!
+Fill in [**this form**](https://forms.gle/so9kqNspwAD31BieA) by **Sunday 18th May** to take part at our group order for the new Jerseys, Bottles, or Socks!
 
 You have following options:
 - Bundle (Trikot, Flasche, Socken, 10 Stickers) // 80€
