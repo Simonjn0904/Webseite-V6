@@ -8,7 +8,7 @@ menu:
     weight: 6
 keywords: ["Rennrad", "Heidelberg", "Rennradgruppe", "Radsport", "Heidelberg Radfahren", "RSV", "RTF", "bike", "cycling", "Routen"]
 ---
-Fill in the form bellow by **Sunday 18th May** to take part at our group order for the new Jerseys, Bottles, or Socks!
+Fill in [**this form**](https://docs.google.com/forms/d/e/1FAIpQLSerYNAWgj5J_HEDpSoCHoI0psnChYqpdUtGFXcs5CwUBXBbkQ/viewform?usp=sharing) by **Sunday 18th May** to take part at our group order for the new Jerseys, Bottles, or Socks!
 
 You have following options:
 - Bundle (Trikot, Flasche, Socken, 10 Stickers) // 80€
@@ -17,8 +17,6 @@ You have following options:
 - Socken // 9€
 - Trikot  (inkl. 5 Stickers gratis) // 65€ 
 - 5 Stickers // 3€
-
-👉 [**Open the order form**](https://forms.gle/m8e2AtFrqtP1kY9U6)
 
 ![VELOciraptors Merch](/images/merch.jpg)
 
