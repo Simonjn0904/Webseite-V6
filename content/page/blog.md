@@ -13,6 +13,18 @@ menu:
 _Latest on top – scroll down to see older events_
 
 ---
+
+## 🦖Bicycle Repair Day🦖
+
+Du hast ein Fahrrad, das schon seit längerem etwas Liebe vertragen könnte? Du hast Spaß daran, mit anderen Menschen gemeinsam an Rädern rumzuschrauben? Dann komm vorbei zu unserem Fahrrad Repair Day - gemeinsam mit @die_zep - und bring dein Rad und/oder deine Friends mit! Wir haben ein paar Ersatzteile, viel Motivation und Snacks :)
+
+🗓️ 15.5.25 16:00 - open end
+
+See you there 🌞
+
+<img src="/images/blog2505.jpg" alt="Cycling Camp Lago Maggiore" style="width:100%; max-width:500px; display:block; margin: 1.5em auto;" />
+
+--- 
 ## 28.04.2025: HD Triathlon Radstreckencheck X Velociraptors 🦖
 
 Obwohl noch ein bisschen Zeit zur Vorbereitung für den Heidelberg Triathlon im Juli bleibt, wollen wir uns am Sonntag, 4.5., schon mal gemeinsam die Radstrecke anschauen. Los geht es um 10:30 Uhr an der Theodor-Heuss-Brücke (Uferstr. 4) - dann fahren wir die halbe (eine Runde) oder die ganze (zwei Runden) Radstrecke ab. Im Anschluss können wir uns bei Kaffee und Snacks über den Wettkampf austauschen 🏊🏻🚴🏻‍♀🏃🏻
