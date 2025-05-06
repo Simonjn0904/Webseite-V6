@@ -22,7 +22,7 @@ Du hast ein Fahrrad, das schon seit längerem etwas Liebe vertragen könnte? Du 
 
 See you there 🌞
 
-<img src="/images/blog2505.jpg" alt="Cycling Camp Lago Maggiore" style="width:100%; max-width:500px; display:block; margin: 1.5em auto;" />
+<img src="/images/blog250505.jpg" alt="Cycling Camp Lago Maggiore" style="width:100%; max-width:500px; display:block; margin: 1.5em auto;" />
 
 --- 
 ## 28.04.2025: HD Triathlon Radstreckencheck X Velociraptors 🦖
